@@ -1,3 +1,48 @@
+\documentclass[10pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{authblk}
+\usepackage[hyphens]{url}
+
+\usepackage{url}
+\usepackage{hyperref} 
+
+\usepackage{titlesec}
+
+\usepackage{caption}
+
+\usepackage{float}
+
+\title{A Comprehensive Approach to Ecosystem Services Management: From Alarm to Action}
+\author{Aidan T. Parkinson and Andreea M. Benu, 5 Colina Mews, London, N15 3HS}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+\begin{center}
+\href{mailto:enquiries@aidantparkinson.com}{enquiries@aidantparkinson.com}
+\end{center}
+
+\section{Abstract}
+This paper examines how to develop a reasonable contractual proposition for a society to cooperate fairly in the interest of a common ecosystem.
+It recognises that no society is entirely free from political realities or the costs involved in maintaining social order.
+As a result, ideal propositions of social cooperation, such as John Rawls’s The Law of Peoples, remain incomplete when considering practical application.
+We introduce the Commonwealth Cost of Carbon, as a new Ecosystem Performance Observation that measures how much societies spend to maintain order relative to their total activity.
+This ratio provides a transparent and replicable way to assess global ecosystem performance without relying on expert computing resources or privileged information.
+Over just twenty years, this cost increased from $\sim$2000\$65 to $\sim$2020\$140 per tonne of CO2e, suggesting both a decline in ecosystem performance and a rising social value for emission reduction.
+Building on this indicator, we propose the Commonwealth of Peoples as a new trade association, that translates moral duty into service performance.
+Here, a complementary Service Rating is introduced, serving as a cost–benefit ratio that benchmarks how industrialised is a habitat.
+Together, these tools provide a performance-based foundation of ecosystem governance that provides an assured approach to move a society from alarm to action.\\
+
+Keywords: Ecosystem Performance; Ecological Economics; Social Contract; Trade Association; Service Performance Marketing\\
+
 \section{Introduction}
 
 We live in an age where global crises such as climate change, biodiversity loss, and geopolitical instability overlap and compete for attention.
@@ -114,8 +159,31 @@ To illustrate the sensitivity of these assumptions, ~\cite{wc1}, ~\cite{wn1}, an
 However, they each arrived at dramatically different conclusions, as evident in Table~\ref{Social contributions table}.
 All adopted a similar headline discount rate ($\sim$0.05), but diverged in their treatment of equality ($\sigma$), growth ($g$), and time preference ($\delta$).\\
 
+\begin{table}[H]
+\caption{Notable Precedents: Assumptions in Social Discounting}
+\begin{center}
+\begin{tabular}{| l | c | c | c | c | c |}
+\hline
+Contribution&$\mu$&$\sigma$&$g$&$\delta$&$S$\\
+\hline
+~\cite{wc1}&0.05&1.5&0.033&0&0.67 \\
+~\cite{wn1}&0.05&1&0.02&0.03&0.4 \\
+~\cite{ns1}&0.05&1&0.049&0.001&0.98 \\
+\hline
+\end{tabular}
+\end{center}
+\label{Social contributions table}
+\end{table}
+
 A comparison by the U.S. Goverment ~\cite{iwg1}, found that the DICE, PAGE, and FUND studies returned a range between $<$2007\$0tC\textsuperscript{-1} to a 95th percentile of 2007\$128tC\textsuperscript{-1} ~\cite{wn1} ~\cite{ch1} ~\cite{rsjt1}.
 The range largely reflects differences in ethical stance rather than data, exposing how personal such views can be.\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{scc}
+	\caption{Social Cost of Carbon in 2010 (in 2007 dollars per metric ton)}
+	\label{USA SCC figure}
+\end{figure}
 
 Figure~\ref{USA SCC figure} shows the range of Social Cost of Carbon estimates derived from integrated assessment models.
 Despite their sophistication, the results differ by more than an order of magnitude, reflecting underlying value judgments rather than objective consensus.
@@ -172,6 +240,13 @@ Point estimates for the CCC in current prices are $\sim$2020\$140tCO2e, up from 
 The figure appears to demonstrate a trend of degrading ecosystem performance over the Reporting Years.
 Such insight appears to suggest the action to save greenhouse gas emissions have become more valuable.\\
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{ccc}
+\caption{Commonwealth Cost of Carbon \$tCO2e (current prices)}
+\label{CCC figure}
+\end{figure}
+
 The indicator’s simplicity is its strength: anyone can compute it using open data, without recourse to expert computing resources or privileged knowledge.
 A transparent accounting of how much societies pay, in the broadest sense, to sustain living conditions within natural disorder.
 Hobbes would likely interpret this ratio as evidence that coercive structures, laws, enforcement, and collective sanctions remain indispensable.
@@ -227,6 +302,30 @@ It is our expectation that this combination of Service Rating and service magnit
 Figure~\ref{Scenarios} illustrates the types of services that may be prioritised at plausible service limits.
 Whilst Table~\ref{Service limits table} suggests possible habitat typologies to be serviced at these limits.\\
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{scenarios}
+\caption{Scenarios for Service Performance Marketing}
+\label{Scenarios}
+\end{figure}
+
+\begin{table}[H]
+\caption{Possible Habitat Typologies at Plausible Service Limits}
+\begin{center}
+\begin{tabular}{| l | l |}
+\hline
+Service Performance Scenario&Habitat Typology\\
+\hline
+Prospect&Landfill\\
+Sanctuary&Tent\\
+Mission Critical&Data Centre\\
+Grand Design&Golf Club\\
+\hline
+\end{tabular}
+\end{center}
+\label{Service limits table}
+\end{table}
+
 \section{Conclusions}
 
 This research began with a question that defines our age: how to develop a reasonable contractual proposition for a society to cooperate fairly in the interest of a common ecosystem?
@@ -250,3 +349,8 @@ Together, the Service Rating and the Commonwealth Cost of Carbon form an axis of
 
 The Commonwealth of Peoples is therefore not a utopian blueprint but a workable compact.
 It acknowledges imperfection while enabling progress, a framework where justice is expressed through transparency, and responsibility is observed rather than declared.\\
+
+\bibliography{manuscript.bib} 
+\bibliographystyle{apalike}
+
+\end{document}
