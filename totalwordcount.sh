@@ -1,1 +1,1 @@
-wc -w ./count.tex
+wc -w ./manuscript.tex
